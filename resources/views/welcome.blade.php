@@ -9,7 +9,7 @@
 </head>
 <body class="antialiased flex">
     <!-- Sidebar -->
-    <div id="sidebar" class="w-[10vw] h-[100vh] bg-neutral-100 shadow-md transition-all">
+    <div id="sidebar" class="w-[15vw] h-[100vh] bg-neutral-100 shadow-md transition-all">
 
     </div>
     <!-- Main Body -->
@@ -39,7 +39,7 @@
 <script>
     function toggleSidebar() {
         const sidebar = document.getElementById('sidebar')
-        sidebar.classList.toggle('w-[10vw]')
+        sidebar.classList.toggle('w-[15vw]')
         sidebar.classList.toggle('w-[0vw]')
     }
 </script>
